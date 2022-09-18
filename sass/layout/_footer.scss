@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $main-bg-color;
+}
+
+.address-wrapper {
+  margin-right: 70px;
+}
+
+.address {
+}
+
+.icon-footer-wrapper {
+}
+
+.title-footer {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: $inverts-color;
+}
+
+.mailing-wrapper {
+  margin-left: auto;
+}

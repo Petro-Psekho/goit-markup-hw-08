@@ -1,0 +1,30 @@
+.mailing-form {
+}
+
+.mailing-inner {
+  display: flex;
+}
+
+.mailing-form__inpit {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  min-width: 358px;
+  border-radius: 4px;
+  outline: none;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: #2f303a;
+  color: $inverts-color;
+
+  &:hover,
+  &:focus {
+    border-color: $main-color;
+  }
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
