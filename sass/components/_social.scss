@@ -1,37 +1,39 @@
-.social {
-  @include flexCenter();
+@media screen and (min-width: $desktop) {
+  .social {
+    @include flexCenter();
 
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
 
-  margin-top: 16px;
-  gap: 10px;
-}
+    margin-top: 16px;
+    gap: 10px;
+  }
 
-.social__list {
-}
+  .social__list {
+  }
 
-.social__icon {
-  @include flexCenter();
+  .social__icon {
+    @include flexCenter();
 
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
 
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  outline: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    outline: none;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  fill: $icon-color;
+    fill: $icon-color;
 
-  &:hover,
-  &:focus {
-    fill: $inverts-color;
-    background-color: $main-color;
+    &:hover,
+    &:focus {
+      fill: $inverts-color;
+      background-color: $main-color;
+    }
   }
 }

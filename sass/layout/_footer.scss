@@ -1,30 +1,32 @@
-.footer {
-  display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
+@media screen and (min-width: $desktop) {
+  .footer {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
-  background-color: $main-bg-color;
-}
+    background-color: $main-bg-color;
+  }
 
-.address-wrapper {
-  margin-right: 70px;
-}
+  .address-wrapper {
+    margin-right: 70px;
+  }
 
-.address {
-}
+  .address {
+  }
 
-.icon-footer-wrapper {
-}
+  .icon-footer-wrapper {
+  }
 
-.title-footer {
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  .title-footer {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 
-  color: $inverts-color;
-}
+    color: $inverts-color;
+  }
 
-.mailing-wrapper {
-  margin-left: auto;
+  .mailing-wrapper {
+    margin-left: auto;
+  }
 }

@@ -1,14 +1,16 @@
-.section {
-  @extend %section;
+@media screen and (min-width: $desktop) {
+  .section {
+    // @extend %section;
 
-  // padding-top: 94px;
-  // padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 
-  &--padding-null {
-    padding-top: 0px;
-  }
+    &--padding-null {
+      padding-top: 0px;
+    }
 
-  &--bg-color {
-    background-color: $button-bgc;
+    &--bg-color {
+      background-color: $button-bgc;
+    }
   }
 }

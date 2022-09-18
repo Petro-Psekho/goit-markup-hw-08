@@ -1,17 +1,19 @@
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+@media screen and (min-width: $desktop) {
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 
-  &--centered {
-    display: flex;
-    align-items: center;
-  }
+    &--centered {
+      display: flex;
+      align-items: center;
+    }
 
-  &--baseline {
-    display: flex;
-    align-items: baseline;
+    &--baseline {
+      display: flex;
+      align-items: baseline;
+    }
   }
 }

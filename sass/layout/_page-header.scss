@@ -1,8 +1,10 @@
-.page-header {
-  border-bottom: 1px solid $header-border-color;
-}
+@media screen and (min-width: $desktop) {
+  .page-header {
+    border-bottom: 1px solid $header-border-color;
+  }
 
-.site-nav {
-  display: flex;
-  align-items: center;
+  .site-nav {
+    display: flex;
+    align-items: center;
+  }
 }

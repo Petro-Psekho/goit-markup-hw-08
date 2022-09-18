@@ -1,44 +1,46 @@
-.button-list {
-  display: flex;
-  justify-content: center;
-  
-  margin-bottom: 50px;
-  gap: 8px;
-}
+@media screen and (min-width: $desktop) {
+  .button-list {
+    display: flex;
+    justify-content: center;
 
-.button-list__item {
-}
-
-.button-list__link {
-  padding: 6px 22px;
-  border-style: none;
-  border-radius: 4px;
-  cursor: pointer;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  color: $title-text-color;
-  background-color: $button-bgc;
-  font-family: roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-
-  &:hover,
-  &:focus {
-    color: $inverts-color;
-    background-color: $main-color;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
+    margin-bottom: 50px;
+    gap: 8px;
   }
 
-  &--active {
-    color: $inverts-color;
-    background-color: $main-color;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
+  .button-list__item {
+  }
+
+  .button-list__link {
+    padding: 6px 22px;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    color: $title-text-color;
+    background-color: $button-bgc;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+
+    &:hover,
+    &:focus {
+      color: $inverts-color;
+      background-color: $main-color;
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+
+    &--active {
+      color: $inverts-color;
+      background-color: $main-color;
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
   }
 }

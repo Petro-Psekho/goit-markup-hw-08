@@ -1,4 +1,5 @@
-.hero__btn {
+@media screen and (min-width: $desktop) {
+  .hero__btn {
   min-width: 216px;
   border-radius: 4px;
   padding: 10px 32px;
@@ -22,4 +23,6 @@
   &:focus {
     background-color: $btn-active-color;
   }
+}
+
 }
