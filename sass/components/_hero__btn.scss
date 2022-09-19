@@ -1,8 +1,7 @@
-@media screen and (min-width: $desktop) {
-  .hero__btn {
-  min-width: 216px;
+.hero__btn {
+  min-width: 200px;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 24px;
   border-style: none;
   cursor: pointer;
   outline: none;
@@ -25,4 +24,13 @@
   }
 }
 
+@media screen and (min-width: $tablet) {
+}
+@media screen and (min-width: $mobile) {
+}
+@media screen and (min-width: $desktop) {
+  .hero__btn {
+    min-width: 216px;
+    padding: 10px 32px;
+  }
 }

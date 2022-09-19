@@ -1,3 +1,13 @@
+.contact-nav {
+  display: none;
+}
+
+@media screen and (min-width: $mobile) {
+  .contact-nav {
+    display: none;
+  }
+}
+
 @media screen and (min-width: $desktop) {
   .contact-nav {
     display: flex;

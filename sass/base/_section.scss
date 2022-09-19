@@ -1,3 +1,22 @@
+.section {
+  // @extend %section;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &--padding-null {
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+
+  &--bg-color {
+    background-color: $button-bgc;
+  }
+}
+@media screen and (min-width: $mobile) {
+}
+@media screen and (min-width: $tablet) {
+}
 @media screen and (min-width: $desktop) {
   .section {
     // @extend %section;

@@ -1,3 +1,7 @@
+.doing-list {
+  display: none;
+}
+
 @media screen and (min-width: $desktop) {
   .doing-list {
     display: flex;

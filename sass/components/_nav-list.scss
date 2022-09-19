@@ -1,3 +1,13 @@
+.nav-list {
+  display: none;
+}
+
+@media screen and (min-width: $mobile) {
+  .nav-list {
+    display: none;
+  }
+}
+
 @media screen and (min-width: $desktop) {
   .nav-list {
     @include flexCenter();

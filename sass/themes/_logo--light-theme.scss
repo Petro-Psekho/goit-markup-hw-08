@@ -1,3 +1,10 @@
-.logo--light-theme {
+  .logo--light-theme {
+  margin-right: 0;
+}
+
+@media screen and (min-width: $desktop) {
+  .logo--light-theme {
   margin-right: 93px;
 }
+}
+
