@@ -3,16 +3,6 @@
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  &--centered {
-    display: flex;
-    align-items: center;
-  }
-
-  // &--baseline {
-  //   display: flex;
-  //   align-items: baseline;
-  // }
 }
 
 @media screen and (min-width: $mobile) {

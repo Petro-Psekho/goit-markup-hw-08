@@ -1,0 +1,23 @@
+.menu-button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  margin-left: auto;
+
+  &__icon-cross {
+    display: none;
+  }
+
+  &.is-open &__icon-cross {
+    display: block;
+  }
+
+  &__icon-menu {
+  }
+
+  &.is-open &__icon-menu {
+    display: none;
+  }
+}

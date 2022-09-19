@@ -30,6 +30,14 @@
           <a href="./" class="logo logo--light-theme"
             ><span class="logo__unit">Web</span>Studio</a
           >
+
+          <button type="button" class="menu-button" aria-expanded="false" data-menu-button>
+            <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+              <use class="menu-button__icon-cross" href="./images/sprite.svg#cross-mobile"></use>
+              <use class="menu-button__icon-menu" href="./images/sprite.svg#menu-mobile"></use>
+            </svg>
+          </button>
+
           <ul class="nav-list">
             <li class="nav-list__item">
               <a
@@ -72,7 +80,10 @@
       <!--! ==================== HERO ====================-->
 
       <section class="hero">
-        <h1 class="hero__title">Ефективні рішення для <br> вашого бізнесу</h1>
+        <h1 class="hero__title">
+          Ефективні рішення для <br />
+          вашого бізнесу
+        </h1>
         <button type="button" class="hero__btn" data-modal-open>
           Замовити послугу
         </button>
@@ -586,5 +597,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
