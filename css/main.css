@@ -1071,10 +1071,6 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list__img {
-  width: 100%;
-}
-
 .team-list__meta {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1304,7 +1300,7 @@ body {
 }
 
 .customers-list__item {
-  min-width: calc((100% - 30px) / 2);
+  width: calc((100% - 30px) / 2);
 }
 
 .customers-list__link {
@@ -1339,7 +1335,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .customers-list__item {
-    min-width: calc((100% - 60px) / 3);
+    width: calc((100% - 60px) / 3);
   }
 }
 @media screen and (min-width: 1200px) {

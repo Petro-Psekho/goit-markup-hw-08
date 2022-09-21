@@ -19,7 +19,6 @@
 }
 
 .team-list__img {
-  width: 100%;
 }
 
 .team-list__meta {
@@ -42,6 +41,15 @@
   line-height: 1.19;
   text-align: center;
 }
+
+//? ================== TABLET VERSION ==================
+
+@media screen and (min-width: $tablet) {
+  .team-list__img {
+  }
+}
+
+//? ================== DESKTOP VERSION ==================
 
 @media screen and (min-width: $desktop) {
   .team-list {
