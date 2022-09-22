@@ -1163,6 +1163,11 @@ body {
   margin-left: 12px;
 }
 
+@media screen and (min-width: 768px) {
+  .mailing-btn {
+    margin-left: 0px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .mailing-btn {
     display: -webkit-inline-box;

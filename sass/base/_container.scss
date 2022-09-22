@@ -41,6 +41,7 @@
     &--baseline {
       display: flex;
       align-items: baseline;
+      // flex-wrap: nowrap;
     }
   }
 }
