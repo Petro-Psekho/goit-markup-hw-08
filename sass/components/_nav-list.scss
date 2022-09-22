@@ -9,7 +9,7 @@
     @include flexCenter();
   }
 
-    .nav-list__item {
+  .nav-list__item {
     position: relative;
 
     &:not(:last-child) {
