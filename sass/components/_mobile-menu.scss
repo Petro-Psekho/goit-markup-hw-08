@@ -104,3 +104,11 @@
     }
   }
 }
+
+//? ================== TABLET VERSION ==================
+
+@media screen and (min-width: $tablet) {
+  .menu-toggle {
+    display: none;
+  }
+}

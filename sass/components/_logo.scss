@@ -13,6 +13,13 @@
   color: $main-color;
 }
 
+//? ================== TABLET VERSION ==================
+
+@media screen and (min-width: $tablet) {
+}
+
+//? ================== DESKTOP VERSION ==================
+
 @media screen and (min-width: $desktop) {
   .logo {
     display: inline-block;

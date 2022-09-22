@@ -10,6 +10,17 @@
   padding-bottom: 16px;
 }
 
+//? ================== TABLET VERSION ==================
+
+@media screen and (min-width: $tablet) {
+  .site-nav {
+        padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+//? ================== DESKTOP VERSION ==================
+
 @media screen and (min-width: $desktop) {
   .page-header {
     border-bottom: 1px solid $header-border-color;
