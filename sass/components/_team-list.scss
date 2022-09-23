@@ -1,6 +1,6 @@
 .team-list {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -46,6 +46,12 @@
 
 @media screen and (min-width: $tablet) {
   .team-list__img {
+
+  
+  }
+  .team-list__item {
+
+  // width: calc((100% - 30px) / 2);
   }
 }
 

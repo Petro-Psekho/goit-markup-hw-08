@@ -5,10 +5,19 @@
   padding-right: 15px;
 }
 
+//? ================== MOBILE VERSION ==================
+
+@media screen and (min-width: $tablet) {
+  .container {
+    width: 480px;
+  }
+}
+
 //? ================== TABLET VERSION ==================
 
 @media screen and (min-width: $tablet) {
   .container {
+    width: 768px;
     &--centered {
       display: flex;
       align-items: center;
