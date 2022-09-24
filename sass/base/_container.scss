@@ -7,7 +7,7 @@
 
 //? ================== MOBILE VERSION ==================
 
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: $mobile) {
   .container {
     width: 480px;
   }
@@ -17,7 +17,7 @@
 
 @media screen and (min-width: $tablet) {
   .container {
-    width: 768px;
+    min-width: 768px;
     &--centered {
       display: flex;
       align-items: center;

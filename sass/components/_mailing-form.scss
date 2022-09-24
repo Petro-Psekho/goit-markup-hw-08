@@ -29,12 +29,17 @@
       color: rgba(255, 255, 255, 0.6);
     }
   }
+
+//? ================== DESKTOP VERSION ==================
+
 @media screen and (min-width: $desktop) {
   .mailing-form {
   }
 
   .mailing-inner {
     display: flex;
+    align-items: baseline;
+
   }
 
   .mailing-form__inpit {

@@ -13,10 +13,24 @@
     background-color: $button-bgc;
   }
 }
+
+//? ================== MOBILE VERSION ==================
+
 @media screen and (min-width: $mobile) {
+  .section {
+      padding-left: 15px;
+  padding-right: 15px;
+  }
+
 }
+
+//? ================== TABLET VERSION ==================
+
 @media screen and (min-width: $tablet) {
 }
+
+//? ================== DESKTOP VERSION ==================
+
 @media screen and (min-width: $desktop) {
   .section {
     // @extend %section;
