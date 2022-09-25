@@ -3,9 +3,13 @@
   flex-wrap: wrap;
   justify-content: start;
 
-  width: 320px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  max-width: 350px;
 
   margin-bottom: 50px;
+
   gap: 8px;
 }
 .button-list__link {
@@ -50,6 +54,15 @@
 //? ================== TABLET VERSION ==================
 
 @media screen and (min-width: $tablet) {
+  .button-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    max-width: 100%;
+
+    margin-bottom: 50px;
+    
+  }
 }
 
 //? ================== DESKTOP VERSION ==================
@@ -59,11 +72,10 @@
     display: flex;
     justify-content: center;
 
+    width: 100%;
+
     margin-bottom: 50px;
     gap: 8px;
-  }
-
-  .button-list__item {
   }
 
   .button-list__link {
