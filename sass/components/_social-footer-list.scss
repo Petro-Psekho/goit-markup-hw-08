@@ -35,14 +35,14 @@
     background-color: $main-color;
   }
 }
+
+//? ================== DESKTOP VERSION ==================
+
 @media screen and (min-width: $desktop) {
   .social-footer-list {
     @include flexCenter();
 
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-
+    margin-bottom: 0;
     gap: 10px;
   }
 

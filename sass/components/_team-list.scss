@@ -40,18 +40,17 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  margin-bottom: 16px;
 }
 
 //? ================== TABLET VERSION ==================
 
 @media screen and (min-width: $tablet) {
   .team-list__img {
-
-  
   }
   .team-list__item {
-
-  // width: calc((100% - 30px) / 2);
+    // width: calc((100% - 30px) / 2);
   }
 }
 
@@ -100,5 +99,7 @@
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+
+    margin-bottom: 16px;
   }
 }

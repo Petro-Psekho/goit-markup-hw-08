@@ -39,8 +39,13 @@
     color: $main-color;
   }
 }
+
+//? ================== DESKTOP VERSION ==================
+
 @media screen and (min-width: $desktop) {
   .address-list {
+    text-align: left;
+
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;

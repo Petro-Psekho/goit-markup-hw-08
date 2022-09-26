@@ -2,3 +2,11 @@
   margin-bottom: 20px;
   color: $inverts-color;
 }
+
+//? ================== DESKTOP VERSION ==================
+
+@media screen and (min-width: $desktop) {
+  .logo--dark-theme {
+    display: flex;
+  }
+}
