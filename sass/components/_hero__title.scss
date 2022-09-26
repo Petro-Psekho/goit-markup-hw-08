@@ -14,9 +14,19 @@
   color: $inverts-color;
 }
 
+//? ================== TABLET VERSION ==================
+
+@media screen and (min-width: $tablet) {
+  .hero__title {
+    max-width: 360px;
+  }
+}
+
+//? ================== DESKTOP VERSION ==================
+
 @media screen and (min-width: $desktop) {
   .hero__title {
-    width: 696px;
+    max-width: 696px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;

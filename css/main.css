@@ -138,7 +138,7 @@ body {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    padding: 0;
+    padding: 0 15px;
   }
   .container--centered {
     display: -webkit-box;
@@ -308,6 +308,9 @@ body {
             flex-direction: row;
     margin-left: auto;
   }
+  .contact-nav__item:nth-child(1n) {
+    margin-bottom: 0px;
+  }
   .contact-nav__item:not(:last-child) {
     margin-right: 50px;
   }
@@ -322,8 +325,8 @@ body {
         -ms-flex-align: center;
             align-items: center;
     outline: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 500;
@@ -1260,9 +1263,14 @@ body {
   color: #ffffff;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__title {
+    max-width: 360px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero__title {
-    width: 696px;
+    max-width: 696px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -1586,10 +1594,10 @@ body {
 .features-list {
   text-align: center;
 }
-.features-list .features-list__item:not(:last-child) {
+.features-list__item:not(:last-child) {
   margin-bottom: 30px;
 }
-.features-list .features-list__icon {
+.features-list__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1604,7 +1612,7 @@ body {
   margin-bottom: 30px;
   background-color: #f5f4fa;
 }
-.features-list .features-list__title {
+.features-list__title {
   margin-bottom: 10px;
   color: #212121;
   font-weight: 700;
@@ -1612,7 +1620,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.features-list .features-list__text {
+.features-list__text {
   font-size: 14px;
   line-height: 1.7;
   text-align: left;
@@ -1622,10 +1630,10 @@ body {
   .features-list {
     text-align: center;
   }
-  .features-list .features-list__item {
+  .features-list__item {
     margin-bottom: 30px;
   }
-  .features-list .features-list__icon {
+  .features-list__icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1640,7 +1648,7 @@ body {
     margin-bottom: 30px;
     background-color: #f5f4fa;
   }
-  .features-list .features-list__title {
+  .features-list__title {
     margin-bottom: 10px;
     color: #212121;
     font-weight: 700;
@@ -1648,7 +1656,7 @@ body {
     line-height: 1.14;
     text-transform: uppercase;
   }
-  .features-list .features-list__text {
+  .features-list__text {
     font-size: 14px;
     line-height: 1.7;
     text-align: left;
@@ -1717,6 +1725,10 @@ body {
   }
   .features-list__item {
     width: calc((100% - 90px) / 4);
+    margin-bottom: 0;
+  }
+  .features-list__item:not(:last-child) {
+    margin-bottom: 0px;
   }
   .features-list__icon {
     display: -webkit-box;
@@ -1735,6 +1747,7 @@ body {
   }
   .features-list__title {
     margin-bottom: 10px;
+    text-align: left;
     color: #212121;
     font-weight: 700;
     font-size: 14px;
@@ -2170,6 +2183,7 @@ body {
 @media screen and (min-width: 1200px) {
   .logo--light-theme {
     margin-right: 93px;
+    padding: 24px 0px;
   }
 }
 .logo--dark-theme {
