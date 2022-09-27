@@ -150,7 +150,8 @@
 
 .checkbox {
   position: relative;
-  display: inline-block;
+  // display: inline-block;
+  @include flexCenter ();
 
   font-size: 12px;
   line-height: 1.17;
@@ -258,7 +259,6 @@
 @media screen and (min-width: $mobile) {
   .modal-wrapper {
     width: 450px;
-    height: 609px;
   }
 
   .checkbox {

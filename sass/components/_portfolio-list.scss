@@ -3,9 +3,6 @@
   flex-wrap: wrap;
   justify-content: center;
 
-  padding-right: 15px;
-  padding-left: 15px;
-
   gap: 30px;
 }
 
@@ -85,6 +82,9 @@
 //? ================== MOBILE VERSION ==================
 
 @media screen and (min-width: $mobile) {
+  .portfolio-list__info {
+  @include flexCenter(flex, center, center);
+}
 }
 
 //? ================== TABLET VERSION ==================

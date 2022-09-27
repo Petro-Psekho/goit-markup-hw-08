@@ -544,7 +544,15 @@ body {
 
 .checkbox {
   position: relative;
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -637,7 +645,6 @@ body {
 @media screen and (min-width: 480px) {
   .modal-wrapper {
     width: 450px;
-    height: 609px;
   }
   .checkbox {
     position: relative;
@@ -1400,11 +1407,8 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  padding-right: 15px;
-  padding-left: 15px;
-  max-width: 350px;
-  margin-bottom: 50px;
-  gap: 8px;
+  margin-bottom: 40px;
+  gap: 15px 8px;
 }
 
 .button-list__link {
@@ -1445,7 +1449,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     max-width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1865,8 +1869,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 15px;
-  padding-left: 15px;
   gap: 30px;
 }
 
@@ -1949,6 +1951,19 @@ body {
   line-height: 1.88;
 }
 
+@media screen and (min-width: 480px) {
+  .portfolio-list__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 @media screen and (min-width: 768px) {
   .portfolio-list {
     display: -webkit-box;
@@ -2177,8 +2192,9 @@ body {
 }
 .mobile-menu-social__item {
   font-family: roboto, sans-serif;
+  font-weight: 500;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.2;
   margin-right: 10px;
 }
 .mobile-menu-social__link {
