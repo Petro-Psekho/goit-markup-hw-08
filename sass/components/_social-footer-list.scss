@@ -1,8 +1,11 @@
+.icon-footer-wrapper {
+  margin-bottom: 60px;
+}
+
 .social-footer-list {
   @include flexCenter();
 
   gap: 10px;
-  margin-bottom: 60px;
 }
 
 .social-footer-list__item {
