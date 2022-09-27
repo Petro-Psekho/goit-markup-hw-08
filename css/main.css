@@ -1038,6 +1038,9 @@ body {
   .social-footer-list {
     margin-bottom: 0;
   }
+  .icon-footer-wrapper {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .social-footer-list {
@@ -1959,6 +1962,17 @@ body {
     padding: 0;
     gap: 30px;
   }
+  .portfolio-list__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .portfolio-list__item {
     width: calc((100% - 30px) / 2);
   }
@@ -2239,6 +2253,9 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2f303a;
+  }
+  .address-wrapper {
+    margin-bottom: 0;
   }
   .mailing-wrapper {
     margin-left: auto;
